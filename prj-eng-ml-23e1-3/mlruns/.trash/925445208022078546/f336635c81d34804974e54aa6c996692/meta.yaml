@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Bruno%20Meletti/Documents/PosInfnet/Engenharia%20de%20Machine%20Learning/Projeto/V2/prj-eng-ml-23e1-3/mlruns/925445208022078546/f336635c81d34804974e54aa6c996692/artifacts
+end_time: 1681614321091
+entry_point_name: ''
+experiment_id: '925445208022078546'
+lifecycle_stage: active
+run_id: f336635c81d34804974e54aa6c996692
+run_name: Logistic Regression
+run_uuid: f336635c81d34804974e54aa6c996692
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681614320528
+status: 3
+tags: []
+user_id: Bruno Meletti

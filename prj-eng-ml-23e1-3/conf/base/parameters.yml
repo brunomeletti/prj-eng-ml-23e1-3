@@ -1,0 +1,10 @@
+shot_type: '2PT Field Goal'
+three_points_shot_type: '3PT Field Goal'
+target: 'shot_made_flag'
+features: ['lat', 'lon', 'minutes_remaining', 'period', 'playoffs', 'shot_distance']
+test_size: 0.2
+folds: 10
+random_state: 123
+two_points_shots_prediction: 'Two points prediction'
+three_points_shots_prediction: 'Three points prediction'
+mlflow_model_served_url: 'http://127.0.0.1:5001/invocations'

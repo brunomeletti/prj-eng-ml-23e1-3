@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Bruno%20Meletti/Documents/PosInfnet/Engenharia%20de%20Machine%20Learning/Projeto/V2/prj-eng-ml-23e1-3/mlruns/737327752242320562/755f0983303c4ab0ba56b2719e4d28ed/artifacts
+end_time: 1681646060002
+entry_point_name: ''
+experiment_id: '737327752242320562'
+lifecycle_stage: active
+run_id: 755f0983303c4ab0ba56b2719e4d28ed
+run_name: capricious-zebra-367
+run_uuid: 755f0983303c4ab0ba56b2719e4d28ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681646059944
+status: 4
+tags: []
+user_id: Bruno Meletti

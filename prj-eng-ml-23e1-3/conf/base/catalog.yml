@@ -1,0 +1,80 @@
+# Dados originais
+raw_kobe_dataset:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/kobe_dataset.csv
+
+# Dataset de dados com features reduzidos do arremessos de 2 pontos
+data_filtered:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/data_filtered.parquet
+
+# Dataset de dados de arremessos de 2 pontos
+two_points_data_filtered:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/tow_points_data_filtered.parquet
+
+# Dataset de dados de arremessos de 3 pontos
+three_points_data_filtered:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/three_points_data_filtered.parquet
+
+# Dados de treino
+data_train:
+  type: pandas.ParquetDataSet
+  filepath: data/04_feature/base_train.parquet
+
+# Dados de teste
+data_test:
+  type: pandas.ParquetDataSet
+  filepath: data/04_feature/base_test.parquet
+
+# Rótulos de treino
+labels_train:
+  type: pandas.ParquetDataSet
+  filepath: data/04_feature/labels_train.parquet
+
+# Rótulos de teste
+labels_test:
+  type: pandas.ParquetDataSet
+  filepath: data/04_feature/labels_test.parquet
+
+ # Dataset de metricas dos dados de treino e teste
+train_test_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+
+# Modelo de classificação
+classification_model:
+  type: kedro_mlflow.io.artifacts.MlflowArtifactDataSet
+  data_set:
+      type: kedro_mlflow.io.models.MlflowModelSaverDataSet
+      flavor: mlflow.sklearn
+      filepath: data/06_models/classification_model
+
+# Metricas do modelo de regressão logística
+lr_model_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+
+# Metricas do modelo de classificação
+classification_model_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+
+# Métricas do Dataset para arremessos de 2 pontos
+two_points_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+
+# Métricas do Dataset para arremessos de 3 pontos
+three_points_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet
+
+# CSV com arremessos de 2 pontos preditos
+two_points_predicted_dataset:
+  type: pandas.CSVDataSet
+  filepath: data/08_reporting/kobe_two_points_predicted_dataset.csv
+
+# CSV com arremessos de 3 pontos preditos
+three_points_predicted_dataset:
+  type: pandas.CSVDataSet
+  filepath: data/08_reporting/kobe_three_points_predicted_dataset.csv
+
+test_classification_model_metrics:
+  type: kedro_mlflow.io.metrics.MlflowMetricsDataSet

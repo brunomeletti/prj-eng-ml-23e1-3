@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Bruno%20Meletti/Documents/PosInfnet/Engenharia%20de%20Machine%20Learning/Projeto/V2/prj-eng-ml-23e1-3/mlruns/737327752242320562/6549d770ae2941c294d8e54335265e9b/artifacts
+end_time: 1681661643749
+entry_point_name: ''
+experiment_id: '737327752242320562'
+lifecycle_stage: active
+run_id: 6549d770ae2941c294d8e54335265e9b
+run_name: Teste
+run_uuid: 6549d770ae2941c294d8e54335265e9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681661643370
+status: 3
+tags: []
+user_id: Bruno Meletti

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Bruno%20Meletti/Documents/PosInfnet/Engenharia%20de%20Machine%20Learning/Projeto/V2/prj-eng-ml-23e1-3/mlruns/737327752242320562/afcb5847d16d4f4d911b250417b23ff9/artifacts
+end_time: 1681594837794
+entry_point_name: ''
+experiment_id: '737327752242320562'
+lifecycle_stage: active
+run_id: afcb5847d16d4f4d911b250417b23ff9
+run_name: PreparacaoDados
+run_uuid: afcb5847d16d4f4d911b250417b23ff9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681594837542
+status: 3
+tags: []
+user_id: Bruno Meletti
